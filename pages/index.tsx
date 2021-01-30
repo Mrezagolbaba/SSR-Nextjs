@@ -1,5 +1,12 @@
+import Link from "next/link";
+import Layout from '../components/Layout';
+
 export default function Home() {
   return (
-   <h1>Home</h1>
+    <Layout title="Home">
+      <Link href='/about'>
+                 <a className="">got to x</a>
+      </Link>
+    </Layout>
   )
 }
